@@ -13,7 +13,7 @@ $ foo
 $ bar baz
 ```
 
-To **skip** expansion, use `^space` instead of just `space`.
+To **skip** expansion, use `control-space` instead of just `space`.
 
 ## Installation
 
