@@ -2,7 +2,7 @@
 #
 # Read README.md for setup instructions.
 # 
-# Initially insired by Gautam Iyer (https://wiki.math.cmu.edu/iki/wiki/tips/20140625-zsh-expand-alias.html)
+# Initially inspired by Gautam Iyer (https://wiki.math.cmu.edu/iki/wiki/tips/20140625-zsh-expand-alias.html)
 
 typeset -a ealiases
 ealiases=(`alias | sed -e 's/=.*//g' | xargs`)
