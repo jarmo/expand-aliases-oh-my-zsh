@@ -5,17 +5,19 @@
 This plugin expands aliases while typing them in terminal.
 
 For example:
-`
+```zsh
 alias foo="bar baz"
 
 $ foo
-# pressing space will expand that alias
+# pressing space will expand that alias to... surprise, surprise
 $ bar baz
-`
+```
+
+To **skip** expansion, use `^space` instead of just `space`.
 
 ## Installation
 
-Just add it to oh-my-zsh plugins list, but make sure it is added last (or not
+Just add it to `oh-my-zsh` plugins list in `~/.zshrc`, but make sure it is added last (or not
 last if you prefer some aliases not to be expanded).
 
 `
