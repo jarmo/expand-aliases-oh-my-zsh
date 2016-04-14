@@ -7,8 +7,7 @@
 typeset -a ealiases
 ealiases=(`alias | sed -e 's/=.*//'`)
 
-_expand-ealias()
-{
+_expand-ealias() {
   if [[ $LBUFFER =~ "(^|[;|&])\s*(${(j:|:)ealiases})\$" ]]; then
     zle _expand_alias
     zle expand-word
