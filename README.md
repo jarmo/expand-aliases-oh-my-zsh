@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Since plugin [globalias](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/globalias) now supports expanding of aliases as well then this plugin is deprecated.
+
 # expand-aliases
 
 **Maintainer:** [Jarmo Pertman](https://github.com/jarmo)
